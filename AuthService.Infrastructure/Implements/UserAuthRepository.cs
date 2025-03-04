@@ -23,6 +23,9 @@ namespace AuthService.Infrastructure.Implements
 
         public async Task<IdentityResult> CreateUserAsync(ApplicationUser model)
         {
+            var hashedPassword = _userManager.PasswordHasher.HashPassword(model, model.userProfile.Password);
+            model.PasswordHash = hashedPassword;
+
             var result = await _userManager.CreateAsync(model);
             return result;
         }
@@ -32,9 +35,11 @@ namespace AuthService.Infrastructure.Implements
             var user = await _userManager.FindByEmailAsync(model.Email);
             if (user is null) return (SignInResult.Failed, null);
 
-            var result = await _signInManager.PasswordSignInAsync(model,model.userProfile.Password, false, false);
-            if (!result.Succeeded)
-                return (result, null);
+
+            var result = _userManager.PasswordHasher.VerifyHashedPassword(user, user.PasswordHash, model.userProfile.Password);
+
+            if (result != PasswordVerificationResult.Success)
+                return (SignInResult.Failed, null);
 
             var token = _jwtService.CreateToken(model);
 

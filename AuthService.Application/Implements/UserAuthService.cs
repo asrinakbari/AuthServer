@@ -4,7 +4,6 @@ using AuthService.Application.Interfaces;
 using AuthService.Infrastructure.Identity;
 using AuthService.Infrastructure.Interfaces;
 using AutoMapper;
-using Microsoft.AspNetCore.Identity;
 
 namespace AuthService.Application.Implements
 {
@@ -18,34 +17,62 @@ namespace AuthService.Application.Implements
             _userAuthRepository = userAuthRepository;
         }
 
-        public async Task<ServiceResult<string>> CreateUserAsync(UserSignUpDto user)
+        public async Task<ServiceResult> CreateUserAsync(UserSignUpDto user)
         {
             var model = _mapper.Map<ApplicationUser>(user);
             var result = await _userAuthRepository.CreateUserAsync(model);
             if (result.Succeeded)
             {
-                return ServiceResult<string>.Success(model.Id, "کاربر با موفقیت ثبت شد");
+                return new ServiceResult()
+                {
+                    Message = "کاربر با موفقیت ساخته شد",
+                    Status = ResponseStatus.Success
+                };
             }
 
             var errors = result.Errors.Select(e => e.Description).ToList();
-            return ServiceResult<string>.Error("خطایی در ثبت کاربر رخ داده است", errors);
+            return new ServiceResult()
+            {
+                Message = "خطایی در ثبت کاربر رخ داده است",
+                Status = ResponseStatus.Error,
+                Errors = errors
+            };
         }
 
-        public async Task<ServiceResult<string>> LoginAsync(LoginDto user)
+        public async Task<ServiceResult> LoginAsync(LoginDto user)
         {
             var model = _mapper.Map<ApplicationUser>(user);
             var (signInResult, token) = await _userAuthRepository.LoginAsync(model);
 
             if (signInResult.Succeeded)
-                return ServiceResult<string>.Success(token!, "ورود با موفقیت انجام شد");
+                return new ServiceResult()
+                {
+                    Message = "ورود با موفقیت انجام شد",
+                    Token = token,
+                    Status = ResponseStatus.Success
+                };
+
 
             if (signInResult.IsLockedOut)
-                return ServiceResult<string>.Error("حساب شما قفل شده است. لطفاً بعداً تلاش کنید.");
+                return new ServiceResult()
+                {
+                    Message = "حساب شما قفل شده است. لطفاً بعداً تلاش کنید.",
+                    Status = ResponseStatus.Error
+                };
 
             if (signInResult.IsNotAllowed)
-                return ServiceResult<string>.Error("دسترسی به این حساب امکان‌پذیر نیست.");
+                return new ServiceResult()
+                {
+                    Message = "دسترسی به این حساب امکان‌پذیر نیست.",
+                    Status = ResponseStatus.Unauthorized
+                };
 
-            return ServiceResult<string>.Error("نام کاربری یا رمز عبور اشتباه است.");
+
+            return new ServiceResult()
+            {
+                Message = "نام کاربری یا رمز عبور اشتباه است.",
+                Status = ResponseStatus.Error
+            };
         }
     }
 }

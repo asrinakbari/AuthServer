@@ -1,6 +1,5 @@
-using AuthService.Grpc.Services;
-using AuthService.Infrastructure.ServiceExtensions;
 using AuthService.Application.ServiceExtensions;
+using AuthService.Infrastructure.ServiceExtensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +11,9 @@ builder.Services.AddAutoMapper();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-app.MapGrpcService<GreeterService>();
+//app.MapGrpcService<GreeterService>();
+//app.MapGrpcService<AuthService>();
+
 app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
 //app.MapGrpcService<AuthServiceBase>();
 app.Run();

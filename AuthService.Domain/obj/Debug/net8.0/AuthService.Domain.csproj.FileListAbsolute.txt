@@ -9,3 +9,4 @@ H:\My Source\Birkar\AuthService\AuthService.Domain\obj\Debug\net8.0\AuthService.
 H:\My Source\Birkar\AuthService\AuthService.Domain\obj\Debug\net8.0\refint\AuthService.Domain.dll
 H:\My Source\Birkar\AuthService\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.pdb
 H:\My Source\Birkar\AuthService\AuthService.Domain\obj\Debug\net8.0\ref\AuthService.Domain.dll
+H:\My Source\Birkar\AuthService\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.sourcelink.json

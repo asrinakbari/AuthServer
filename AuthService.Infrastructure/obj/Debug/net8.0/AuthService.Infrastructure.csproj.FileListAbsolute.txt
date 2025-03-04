@@ -15,3 +15,4 @@ H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\refi
 H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.pdb
 H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.genruntimeconfig.cache
 H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\ref\AuthService.Infrastructure.dll
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.sourcelink.json

@@ -15,3 +15,4 @@ H:\My Source\Birkar\AuthService\AuthService.Application\obj\Debug\net8.0\AuthSer
 H:\My Source\Birkar\AuthService\AuthService.Application\obj\Debug\net8.0\ref\AuthService.Application.dll
 H:\My Source\Birkar\AuthService\AuthService.Application\bin\Debug\net8.0\AuthService.Infrastructure.dll
 H:\My Source\Birkar\AuthService\AuthService.Application\bin\Debug\net8.0\AuthService.Infrastructure.pdb
+H:\My Source\Birkar\AuthService\AuthService.Application\obj\Debug\net8.0\AuthService.Application.sourcelink.json
