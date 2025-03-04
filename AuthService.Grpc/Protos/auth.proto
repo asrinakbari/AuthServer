@@ -1,0 +1,35 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "AuthService.Grpc.Protos";
+
+service AuthService {
+    rpc CreateUserAsync (UserSignUpRequest) returns (ServiceResultReply);
+    rpc LoginAsync (LoginRequest) returns (ServiceResultReply);
+}
+
+message UserSignUpRequest{
+	string Username = 1;
+    string Email = 2;
+    string Password = 3;
+} 
+
+message LoginRequest{
+	string Username = 1;
+    string Password = 2;
+} 
+
+message ServiceResultReply{
+    ResponseStatus status = 1;
+    string data = 2; 
+    string message = 3;
+    repeated string errors = 4;
+    string timestamp = 5; 
+}
+
+enum ResponseStatus {
+    SUCCESS = 0;
+    ERROR = 1;
+    NOT_FOUND = 2;
+    VALIDATION_ERROR = 3;
+    UNAUTHORIZED = 4;
+}

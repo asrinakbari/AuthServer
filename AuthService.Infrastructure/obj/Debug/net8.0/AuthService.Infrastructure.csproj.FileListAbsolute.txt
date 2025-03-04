@@ -1,0 +1,17 @@
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\bin\Debug\net8.0\AuthService.Infrastructure.deps.json
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\bin\Debug\net8.0\AuthService.Infrastructure.runtimeconfig.json
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\bin\Debug\net8.0\AuthService.Infrastructure.dll
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\bin\Debug\net8.0\AuthService.Infrastructure.pdb
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\bin\Debug\net8.0\AuthService.Domain.dll
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\bin\Debug\net8.0\AuthService.Domain.pdb
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.csproj.AssemblyReference.cache
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.AssemblyInfoInputs.cache
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.AssemblyInfo.cs
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.csproj.CoreCompileInputs.cache
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\AuthServ.03063B79.Up2Date
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.dll
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\refint\AuthService.Infrastructure.dll
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.pdb
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.genruntimeconfig.cache
+H:\My Source\Birkar\AuthService\AuthService.Infrastructure\obj\Debug\net8.0\ref\AuthService.Infrastructure.dll

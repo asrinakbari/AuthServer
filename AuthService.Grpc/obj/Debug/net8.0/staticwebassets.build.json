@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5VcgtsHPKst8p/qTlKaUJJ0l6xAWGPCkW8gbK8Ly7AI=",
+  "Source": "AuthService.Grpc",
+  "BasePath": "_content/AuthService.Grpc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\My Source\\Birkar\\AuthService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB99B04-5834-49FD-9831-B5C96281C8FC}|AuthService.Grpc\\AuthService.Grpc.csproj|h:\\my source\\birkar\\authservice\\authservice.grpc\\services\\interfaces\\iauthgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB99B04-5834-49FD-9831-B5C96281C8FC}|AuthService.Grpc\\AuthService.Grpc.csproj|solutionrelative:authservice.grpc\\services\\interfaces\\iauthgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB99B04-5834-49FD-9831-B5C96281C8FC}|AuthService.Grpc\\AuthService.Grpc.csproj|h:\\my source\\birkar\\authservice\\authservice.grpc\\protos\\auth.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{BAB99B04-5834-49FD-9831-B5C96281C8FC}|AuthService.Grpc\\AuthService.Grpc.csproj|solutionrelative:authservice.grpc\\protos\\auth.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB99B04-5834-49FD-9831-B5C96281C8FC}|AuthService.Grpc\\AuthService.Grpc.csproj|h:\\my source\\birkar\\authservice\\authservice.grpc\\services\\implements\\authgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB99B04-5834-49FD-9831-B5C96281C8FC}|AuthService.Grpc\\AuthService.Grpc.csproj|solutionrelative:authservice.grpc\\services\\implements\\authgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE9723B6-0989-4409-ADE5-730F606F450A}|AuthService.Application\\AuthService.Application.csproj|h:\\my source\\birkar\\authservice\\authservice.application\\implements\\userauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE9723B6-0989-4409-ADE5-730F606F450A}|AuthService.Application\\AuthService.Application.csproj|solutionrelative:authservice.application\\implements\\userauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB99B04-5834-49FD-9831-B5C96281C8FC}|AuthService.Grpc\\AuthService.Grpc.csproj|h:\\my source\\birkar\\authservice\\authservice.grpc\\protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{BAB99B04-5834-49FD-9831-B5C96281C8FC}|AuthService.Grpc\\AuthService.Grpc.csproj|solutionrelative:authservice.grpc\\protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE9723B6-0989-4409-ADE5-730F606F450A}|AuthService.Application\\AuthService.Application.csproj|h:\\my source\\birkar\\authservice\\authservice.application\\interfaces\\iuserauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE9723B6-0989-4409-ADE5-730F606F450A}|AuthService.Application\\AuthService.Application.csproj|solutionrelative:authservice.application\\interfaces\\iuserauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB99B04-5834-49FD-9831-B5C96281C8FC}|AuthService.Grpc\\AuthService.Grpc.csproj|h:\\my source\\birkar\\authservice\\authservice.grpc\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB99B04-5834-49FD-9831-B5C96281C8FC}|AuthService.Grpc\\AuthService.Grpc.csproj|solutionrelative:authservice.grpc\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IAuthGrpcService.cs",
+              "DocumentMoniker": "H:\\My Source\\Birkar\\AuthService\\AuthService.Grpc\\Services\\Interfaces\\IAuthGrpcService.cs",
+              "RelativeDocumentMoniker": "AuthService.Grpc\\Services\\Interfaces\\IAuthGrpcService.cs",
+              "ToolTip": "H:\\My Source\\Birkar\\AuthService\\AuthService.Grpc\\Services\\Interfaces\\IAuthGrpcService.cs",
+              "RelativeToolTip": "AuthService.Grpc\\Services\\Interfaces\\IAuthGrpcService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T12:33:23.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthGrpcService.cs",
+              "DocumentMoniker": "H:\\My Source\\Birkar\\AuthService\\AuthService.Grpc\\Services\\Implements\\AuthGrpcService.cs",
+              "RelativeDocumentMoniker": "AuthService.Grpc\\Services\\Implements\\AuthGrpcService.cs",
+              "ToolTip": "H:\\My Source\\Birkar\\AuthService\\AuthService.Grpc\\Services\\Implements\\AuthGrpcService.cs",
+              "RelativeToolTip": "AuthService.Grpc\\Services\\Implements\\AuthGrpcService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T12:33:20.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserAuthService.cs",
+              "DocumentMoniker": "H:\\My Source\\Birkar\\AuthService\\AuthService.Application\\Interfaces\\IUserAuthService.cs",
+              "RelativeDocumentMoniker": "AuthService.Application\\Interfaces\\IUserAuthService.cs",
+              "ToolTip": "H:\\My Source\\Birkar\\AuthService\\AuthService.Application\\Interfaces\\IUserAuthService.cs",
+              "RelativeToolTip": "AuthService.Application\\Interfaces\\IUserAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T12:13:56.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserAuthService.cs",
+              "DocumentMoniker": "H:\\My Source\\Birkar\\AuthService\\AuthService.Application\\Implements\\UserAuthService.cs",
+              "RelativeDocumentMoniker": "AuthService.Application\\Implements\\UserAuthService.cs",
+              "ToolTip": "H:\\My Source\\Birkar\\AuthService\\AuthService.Application\\Implements\\UserAuthService.cs",
+              "RelativeToolTip": "AuthService.Application\\Implements\\UserAuthService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAxwCEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:56:46.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "auth.proto",
+              "DocumentMoniker": "H:\\My Source\\Birkar\\AuthService\\AuthService.Grpc\\Protos\\auth.proto",
+              "RelativeDocumentMoniker": "AuthService.Grpc\\Protos\\auth.proto",
+              "ToolTip": "H:\\My Source\\Birkar\\AuthService\\AuthService.Grpc\\Protos\\auth.proto",
+              "RelativeToolTip": "AuthService.Grpc\\Protos\\auth.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-03-04T09:52:06.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "greet.proto",
+              "DocumentMoniker": "H:\\My Source\\Birkar\\AuthService\\AuthService.Grpc\\Protos\\greet.proto",
+              "RelativeDocumentMoniker": "AuthService.Grpc\\Protos\\greet.proto",
+              "ToolTip": "H:\\My Source\\Birkar\\AuthService\\AuthService.Grpc\\Protos\\greet.proto",
+              "RelativeToolTip": "AuthService.Grpc\\Protos\\greet.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-03-04T09:50:51.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GreeterService.cs",
+              "DocumentMoniker": "H:\\My Source\\Birkar\\AuthService\\AuthService.Grpc\\Services\\GreeterService.cs",
+              "RelativeDocumentMoniker": "AuthService.Grpc\\Services\\GreeterService.cs",
+              "ToolTip": "H:\\My Source\\Birkar\\AuthService\\AuthService.Grpc\\Services\\GreeterService.cs",
+              "RelativeToolTip": "AuthService.Grpc\\Services\\GreeterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T09:50:54.379Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
